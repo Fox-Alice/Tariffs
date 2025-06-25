@@ -1,0 +1,165 @@
+.order-SIM__title {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 0 40px;
+}
+
+.order-SIM__wrapper {
+    padding: 38px 27px 23px 53px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 24px 0px #2023341A;
+    border-radius: 20px;
+    width: 940px;
+    margin: 0 auto 28px;
+}
+
+.order-SIM__steps-list {
+    list-style-type: none;
+    padding: 0 0 36px;
+    margin: 0 0 36px;
+    position: relative;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 91px;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.order-SIM__steps-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.order-SIM__step-number {
+    background-color: #F0F0F0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color: #858385;
+    padding: 4px 14px;
+    border-radius: 60px;
+}
+
+.order-SIM__step-number::after {
+    content: '';
+    width: 86px;
+    height: 2px;
+    background-color: #F0F0F0;
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 3px);
+}
+
+.order-SIM__steps-item:last-child .order-SIM__step-number::after {
+    display: none;
+}
+
+.order-SIM__steps-item--active .order-SIM__step-number {
+    background-color: #239DD6;
+    color: #FFFFFF;
+}
+
+.order-SIM__step-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    margin: 0;
+    color: #858385;
+
+}
+
+.order-SIM__steps-item--active .order-SIM__step-text {
+    color: #343033;
+}
+
+.order-SIM__form {
+    padding: 0 34px 0 7px;
+}
+
+.order-SIM__input-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 0 0 20px;
+}
+
+.order-SIM__group {
+    border: 0;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+.order-SIM__group-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    color: #858385;
+    margin: 0 0 8px;
+    letter-spacing: 0.01em;
+}
+
+.order-SIM__button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.order-SIM__button {
+    width: 131px;
+    height: 40px;
+    font-family: Noto Sans;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.01em;
+    margin: 0 0 20px;
+    border: none;
+    border-radius: 60px;
+    background-color: #239DD6;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.order-SIM__button:hover {
+    background-color: #9D1881;
+}
+
+.order-SIM__button:focus-visible {
+    background-color: #771061;
+}
+
+
+.order-SIM__button:disabled {
+    color: #858385;
+    background-color: #F0F0F0;
+    cursor: default;
+}
+
+.order-SIM__text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: #858385;
+    margin: 0 auto 100px;
+    max-width: 940px;
+}
+
+.order-SIM__link {
+    color: #239DD6;
+    text-decoration: underline;
+}
+
+.order-SIM__link:hover {
+    color: #9D1881;
+}

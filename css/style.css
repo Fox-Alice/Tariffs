@@ -1,0 +1,18 @@
+/* Global */
+/* ------------------------------------ */
+@import "global/fonts.css";
+@import "global/reboot.css";
+@import "global/container.css";
+@import "global/visually-hidden.css";
+
+/* Blocks */
+/* ------------------------------------ */
+@import "blocks/header.css";
+@import "blocks/tariffs.css";
+@import "blocks/order-SIM.css";
+@import "blocks/custom-radio-payment.css";
+@import "blocks/custom-radio.css";
+@import "blocks/custom-input.css";
+@import "blocks/custom-checkbox.css";
+
+@import "blocks/footer.css";

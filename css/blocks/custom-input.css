@@ -1,0 +1,65 @@
+.custom-input {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.custom-input__label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.01em;
+    color: #858385;
+    margin: 0 0 8px;
+
+}
+
+.custom-input__field {
+    font-family: Noto Sans;
+    padding: 11px 19px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.01em;
+    border: 1px solid #F0F0F0;
+    background-color: #FCFCFC;
+    border-radius: 8px;
+    color: #343033;
+}
+
+.custom-input__field::placeholder {
+    color: #BFBFBF;
+}
+
+.custom-input__field:hover {
+    border: 1px solid #BFBFBF;
+}
+
+.custom-input__field:focus-visible {
+    border: 1px solid #8DD6F8;
+    outline: none;
+}
+
+.custom-input__field:disabled,
+.custom-input__field:disabled:hover,
+.custom-input__field:disabled:focus-visible {
+    background-color: #F6F6F6;
+    border: 1px solid #F0F0F0;
+}
+
+.custom-input--error .custom-input__field{
+    background-color: #FBE2E0;
+}
+
+.custom-input__error-text {
+    display: none;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.15;
+    letter-spacing: 0.01em;
+    color: #D72522;
+}
+
+.custom-input--error .custom-input__error-text {
+    display: block;
+}
